@@ -8,6 +8,7 @@ class LanguagesSchema extends Schema {
     this.create('languages', (table) => {
       table.increments()
       table.string('name', 100)
+      table.boolean('deleted').defaultTo('FALSE')
       table.timestamps()
     })
   }

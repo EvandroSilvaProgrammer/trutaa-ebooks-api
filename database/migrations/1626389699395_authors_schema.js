@@ -3,9 +3,9 @@
 /** @type {import('@adonisjs/lucid/src/Schema')} */
 const Schema = use('Schema')
 
-class CategoriesSchema extends Schema {
+class AuthorsSchema extends Schema {
   up () {
-    this.create('categories', (table) => {
+    this.create('authors', (table) => {
       table.increments()
       table.string('name', 100)
       table.boolean('deleted').defaultTo('FALSE')
@@ -14,8 +14,8 @@ class CategoriesSchema extends Schema {
   }
 
   down () {
-    this.drop('categories')
+    this.drop('authors')
   }
 }
 
-module.exports = CategoriesSchema
+module.exports = AuthorsSchema

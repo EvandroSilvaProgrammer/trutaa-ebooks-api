@@ -10,6 +10,7 @@ class SubcategoriesSchema extends Schema {
       table.string('name', 100)
       table.integer('categorie_id').unsigned()
       table.foreign('categorie_id').references('id').inTable('categories').onDelete('cascade')
+      table.boolean('deleted').defaultTo('FALSE')
       table.timestamps()
     })
   }
