@@ -142,7 +142,7 @@ node ace serve --watch
 
 This project is under license [MIT](./LICENSE).
 
-Feito com ❤️ by Evandro Silva AKA SkeBug 👋🏽 [Get int touch!](https://www.linkedin.com/in/evandrosilva-programmer/)
+Made with ❤️ by Evandro Silva AKA SkeBug 👋🏽 [Get int touch!](https://www.linkedin.com/in/evandrosilva-programmer/)
 
 ---
 
