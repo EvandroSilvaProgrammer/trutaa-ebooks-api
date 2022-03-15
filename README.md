@@ -23,7 +23,7 @@
 <h3 align="center"> <a href="https://trutaa-landingpage.vercel.app/">Access the project's Landing Page</a> </h3>
 
 ---
-## Índice:
+## Index:
 <!--ts-->
    * [About](#-about-the-project)
    * [Features](#-features)
