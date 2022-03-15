@@ -148,4 +148,4 @@ Feito com ❤️ por Evandro Silva AKA SkeBug 👋🏽 [Entre em contato!](https
 
 ##  Versões do README
 
-[Português 🇦🇴](./README.md)  |  [Inglês 🇺🇸](./README-en.md) 
+[Português 🇦🇴](./README-pt.md)  |  [Inglês 🇺🇸](./README.md) 
