@@ -17,83 +17,83 @@
 </h1>
 
 <h4 align="center"> 
-	🚧 Developing 🚧
+	🚧 Em desenvolvimento 🚧
 </h4>
 
-<h3 align="center"> <a href="https://trutaa-landingpage.vercel.app/">Access the project's Landing Page</a> </h3>
+<h3 align="center"> <a href="https://trutaa-landingpage.vercel.app/">Acessar Landing Page do projecto</a> </h3>
 
 ---
 ## Índice:
 <!--ts-->
-   * [About](#-about-the-project)
+   * [Sobre](#-sobre-o-projeto)
    * [Features](#-features)
-   * [Technologies](#-technologies)
-   * [How to run the project](#-how-to-run-the-project)
-      * [Prerequisites](#-pré-requisitos)
-      * [Runing the project](#-runing-the-project)
-   * [Author](#-author)
-   * [License](#-license)
-   * [ReadMe versions](#-readme-versions)
+   * [Tecnologias](#-tecnologias)
+   * [Como executar o projeto](#-como-executar-o-projeto)
+      * [Pré-requisitos](#-pré-requisitos)
+      * [Rodando o projecto](#-rodando-o-projeto)
+   * [Autor](#-autor)
+   * [Licença](#-licença)
+   * [Versões do ReadMe](#-versões-do-readme)
         * [Português](./README-pt.md)
-        * [English](./README.md)
+        * [Inglês](./README.md)
 <!--/ts-->
 <!--te-->
 ---
-## 💻 About the project
+## 💻 Sobre o projeto
 
 <p>
-    Trutaa Ebooks : It is a platform that will connect the major publishers of academic and scientific books to students or anyone willing to learn, allowing these students to have access to the most varied titles and bibliographic references of great quality and at an affordable price for any social class.
+    Trutaa Ebooks : É uma plataforma que irá conectar as grandes editoras de livros académicos e científicos aos estudantes ou qualquer pessoa com vontade de aprender, permitindo a estes estudantes terem acesso aos mais variados títulos e referências bibliográficas de grande qualidade e a um preço acessível para qualquer classe social.
 </p>
 <p>
-    Trutaa has the following objectives:
-    <li>Allow students and any knowledge seeker to have access to the best known academic and scientific bibliographies in Portuguese and other languages.</li> </br>
-    <li>Allow any student to be able to pay cheaply for books and read wherever and whenever they want.</li> </br>
-    <li>Allow students to carry out their readings also in offline mode.</li> </br>
-    <li>Allow publishers to offer their products closer to readers with just a few clicks so they can also expand their business and increase their profits.</li>
+    Trutaa tem os seguintes objectivos:
+    <li>Permitir aos estudantes e qualquer buscador de conhecimento ter acesso as melhores bibliografias académicas e científicas mais conhecidas em português e em outras línguas.</li> </br>
+    <li>Permitir a qualquer estudante poder pagar barato pelos livros e ler onde quiser a qualquer hora e a qualquer momento.</li> </br>
+    <li>Permitir aos estudantes realizar suas leituras também em modo offline.</li> </br>
+    <li>Permitir as editoras oferecerem seus produtos de mais perto os leitores com apenas alguns cliques e assim poderem também expandir seu negócio e aumentar seus lucros.</li>
 </p>
 
 ---    
 ## 📋 Features
-- [x] Customer registration
-- [x] Publisher registration
-- [ ] Book registration
+- [x] Cadastro de cliente
+- [x] Cadastro de editora
+- [ ] Cadastro de livro
 
 
 ---
-## 🛠 Technologies
-<p>The following tools were used in the construction of the project:</p>
+## 🛠 Tecnologias
+<p>As seguintes ferramentas foram usadas na construção do projecto:</p>
 
 <li><a href="https://adonisjs.com/">AdonisJS</a></li>
 <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
 
 ---
-## 🚀 How to run the project
+## 🚀 Como executar o projeto
 ---
-### ✅ Prerequisites:
+### ✅ Pré-requisitos:
 
 <li><a href="https://git-scm.com">Git</a></li>
 <li><a href="https://nodejs.org/en/">Node.js</a></li>
 <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-<p>Besides, it's good to have an editor to work with code like <a href="https://code.visualstudio.com/">Visual Studio Code (VSCode)</a> </p>
+<p>Além disto é bom ter um editor para trabalhar com o código como o <a href="https://code.visualstudio.com/">Visual Studio Code (VSCode)</a> </p>
 
 ---
-### 🎲 Runing the project:
+### 🎲 Rodando o projecto
 <br>
 
-#### Clone the repository
+#### Clone o repositório
 ```bash
 git clone https://github.com/EvandroSilvaProgrammer/trutaa-ebooks-api.git
 ```
-#### Access the project folder in terminal/cmd
+#### Acesse a pasta do projeto no terminal/cmd
 ```bash
 cd trutaa-ebooks-api
 ```
 
-#### Configure environment variables
+#### Configure as variáveis de ambiente
 ```bash
 cp .env.example .env
 ```
-#### Install the dependencies
+#### Instale as dependências
 ```bash
 yarn
 ```
@@ -102,27 +102,27 @@ yarn
 npm install
 ```
 
-#### Generate APP_KEY
+#### Gere a APP_KEY
 ```bash
 node ace generate:key
 ```
-##### Fill in the generated API_KEY in your .env file
+##### Preencha a API_KEY gerada em seu arquivo .env
 
 </br>
 
-#### Run the migrations
+#### Rode as migrations
 ```bash
 node ace migrate:run
 ```
 
-#### Run the application in development mode
+#### Execute a aplicação em modo de desenvolvimento
 ```bash
 node ace serve --watch
 ```
 
 ---
 
-## 🦸 Author
+## 🦸 Autor
 
 <a href="https://github.com/EvandroSilvaProgrammer">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/67426023?v=4" width="100px;" alt=""/>
@@ -138,14 +138,14 @@ node ace serve --watch
 
 ---
 
-## 📝 License
+## 📝 Licença
 
-This project is under license [MIT](./LICENSE).
+Este projeto esta sobe a licença [MIT](./LICENSE).
 
-Feito com ❤️ by Evandro Silva AKA SkeBug 👋🏽 [Get int touch!](https://www.linkedin.com/in/evandrosilva-programmer/)
+Feito com ❤️ por Evandro Silva AKA SkeBug 👋🏽 [Entre em contato!](https://www.linkedin.com/in/evandrosilva-programmer/)
 
 ---
 
-##  README Versions
+##  Versões do README
 
-[Português 🇦🇴](./README.md)  |  [English 🇺🇸](./README-en.md) 
+[Português 🇦🇴](./README.md)  |  [Inglês 🇺🇸](./README-en.md) 
