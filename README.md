@@ -148,4 +148,4 @@ Feito com ❤️ by Evandro Silva AKA SkeBug 👋🏽 [Get int touch!](https://w
 
 ##  README Versions
 
-[Português 🇦🇴](./README.md)  |  [English 🇺🇸](./README-en.md) 
+[Português 🇦🇴](./README-pt.md)  |  [English 🇺🇸](./README.md) 
